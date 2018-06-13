@@ -1,0 +1,6 @@
+Logindata:
+  login_data1:
+    user: hwcg.test
+    passwd: 123456
+    expect: hwcg.test
+
