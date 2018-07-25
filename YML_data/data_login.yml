@@ -1,6 +1,14 @@
 Logindata:
-  login_data1:
+  supplier_data:
     user: hwcg.test
     passwd: 123456
     expect: hwcg.test
+  buyer_data:
+    user: hw.test
+    passwd: 123456
+    expect: hw.test
+  platform_data:
+    user: system
+    passwd: 123456
+    expect: system
 

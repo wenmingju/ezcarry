@@ -1,3 +1,4 @@
+from Pages import PageLogin
 from selenium.webdriver.support.wait import WebDriverWait
 class Base(object):
     def __init__(self, driver):
@@ -12,3 +13,5 @@ class Base(object):
     def elment_sendkeys(self, loc, content):
         self.find_element(loc).send_keys(content)
 
+    def goToIndex(self):
+        self.driver.get(PageLogin.url_index)
